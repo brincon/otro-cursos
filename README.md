@@ -1,1 +1,1 @@
-# otro-cursos
+# otros-cursos
