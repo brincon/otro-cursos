@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles/estilos.css" rel="stylesheet" />
         <title>Hola, este es el titulo</title>
         <description>Esta es la descripcion</description>
     </head>
@@ -11,8 +12,8 @@
         <header>
             <h3>Esto es una lista ordenada</h3>
             <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
+                <li class="textoGris fondoRojo">Elemento 1</li>
+                <li class="textoAzul fondoAmarillo">Elemento 2</li>
                 <li>Elemento 3</li>
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
@@ -42,16 +43,50 @@
                 <a href="./paginatest.html">Este es un link interno</a>
                 <article>
                     <h3>Parrafo 1</h3>
-                    <p>esto es un parrafo</p>
+                    <p class="textoGris">esto es un parrafo</p>
+                    <h3>Parrafo 2</h3>
+                    <p class="textoAzul">esto es el segundo parrafo</p>
                     <h3>Parrafo 3</h3>
-                    <p>esto es el segundo parrafo</p>
-                    <h3>Parrafo 3</h3>
-                    <p>esto es el tercer parrafo</p>
+                    <p id="parrafo3"> esto es el tercer parrafo</p>
                     <span>este es un texto corto</span>
                 </article>
-                <img src="./media/borderCollie.jpg" alt="Foto de un Border Collie"/>
+                <img class="imagenPequena" src="./media/borderCollie.jpg" alt="Foto de un Border Collie"/>
             </section>
-            <section>tabla con la info</section>
+            <section>
+                <div class="contenedorConMargen">
+                    <div>div1</div>
+                    <div>div2</div>
+                    <div>div3</div>
+                </div>
+                <div class="contenedorDivsGrid">
+                    <div class="divTest">div1</div>
+                    <div class="divTest">div2</div>
+                    <div class="divTest">div3</div>
+                    <div class="divTest">div4</div>
+                    <div class="divTest">div5</div>
+                    <div class="divTest">div6</div>
+                    <div class="divTest">div7</div>
+                    <div class="divTest">div8</div>
+                    <div class="divTest">div9</div>
+                    <div class="divTest">div10</div>
+                    <div class="divTest">div11</div>
+                    <div class="divTest">div12</div>
+                </div>
+                <div class="contenedorDivsFlex">
+                    <div class="divTest">div1</div>
+                    <div class="divTest">div2</div>
+                    <div class="divTest">div3</div>
+                    <div class="divTest">div4</div>
+                    <div class="divTest">div5</div>
+                    <div class="divTest">div6</div>
+                    <div class="divTest">div7</div>
+                    <div class="divTest">div8</div>
+                    <div class="divTest">div9</div>
+                    <div class="divTest">div10</div>
+                    <div class="divTest">div11</div>
+                    <div class="divTest">div12</div>
+                </div>
+            </section>
         </main>
         <footer>este es el footer de contacto</footer>
         hola mundo
