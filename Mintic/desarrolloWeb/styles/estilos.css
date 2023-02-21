@@ -28,3 +28,19 @@ ul{
     box-shadow: 5px 5px green;
     transform: scale(1.1);
 }
+
+.secundaryButton{
+    background-color: rgb(64, 176, 224);
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px rgb(64, 176, 224);
+}
+
+.secundaryButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(8, 121, 220);
+    transform: scale(1.1);
+}
