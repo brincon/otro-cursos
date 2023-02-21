@@ -13,6 +13,24 @@ ul{
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .logo{
     height: 70px;
 }
+=======
+.mainButton{
+    background-color: #1bb76e;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px green;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px green;
+    transform: scale(1.1);
+}
+>>>>>>> 5-crear-boton-nuevo-post
